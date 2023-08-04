@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentInfopage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-136dp">
+
+        <EditText
+            android:id="@+id/currentyear"
+            android:layout_width="362dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/currentyear"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/lastname"
+            app:layout_constraintStart_toStartOf="@+id/lastname"
+            app:layout_constraintTop_toBottomOf="@+id/lastname" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="362dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/lastname"
+            app:layout_constraintEnd_toEndOf="@+id/firstname"
+            app:layout_constraintStart_toStartOf="@+id/firstname"
+            app:layout_constraintTop_toBottomOf="@+id/firstname" />
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="362dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="40dp"
+            android:hint="@string/firstname"
+            app:layout_constraintEnd_toEndOf="@+id/infopagetitle"
+            app:layout_constraintStart_toStartOf="@+id/infopagetitle"
+            app:layout_constraintTop_toBottomOf="@+id/infopagetitle" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="362dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Email_Address"
+            app:layout_constraintEnd_toEndOf="@+id/POStspinner"
+            app:layout_constraintStart_toStartOf="@+id/POStspinner"
+            app:layout_constraintTop_toBottomOf="@+id/POStspinner" />
+
+        <TextView
+            android:id="@+id/infopagetitle"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/white"
+            android:text="@string/studentinfotitle"
+            android:textSize="30sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/getstarted"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <Spinner
+            android:id="@+id/POStspinner"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:entries="@array/POSt_list"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="360dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/selectPOSt"
+            app:layout_constraintEnd_toEndOf="@+id/currentyear"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/currentyear"
+            app:layout_constraintTop_toBottomOf="@+id/currentyear" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

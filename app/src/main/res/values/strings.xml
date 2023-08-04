@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">B07Tut7Grp3</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="link_sign_up">Sign up</string>
+    <string name="remind_info">If you do not have an account</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Course Manager</string>
+    <string name="student_login">Login As A Student</string>
+    <string name="student_sign_up">Sign Up As A Student</string>
+    <string name="admin_login">Login As An Admin</string>
+    <string name="admin_login2">Admin Login</string>
+    <string name="login">Login</string>
+    <string name="Email_Address">Email</string>
+    <string name="Password">Password</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="SignUp">Create New Student Account</string>
+    <string name="SignUpAdmin">Create New Admin Account</string>
+    <string name="register">Register</string>
+    <string name="haveAnAccount">Already Have An Account?</string>
+    <string name="confirmpswd">Confirm Password</string>
+    <string name="courseName1">Course Name:</string>
+    <string name="csca08">CSCA08</string>
+    <string name="studentinfotitle">Just few more steps...</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="currentyear">Your Current Year</string>
+    <string name="currentpost">Your Current POSt</string>
+    <string name="yourusername">User Name</string>
+    <string name="getstarted">Get Started</string>
+    <string name="selectPOSt">Select your program: </string>
+    <string name="cancel">Back to Course List</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="deleteCourse">Delete Course</string>
+    <string name="emptyMessage"></string>
+    <string name="checkUsername">check user exists</string>
+    <string name="checkPassword">check password</string>
+    <string name="change_course">change course info</string>
+
+
+    <string-array name="POSt_list">
+        <item>African Studies</item>
+        <item>Anthropology</item>
+        <item>Applied Microbiology</item>
+        <item>Arts, Culture, and Media</item>
+        <item>Arts Management</item>
+        <item>Art History"</item>
+        <item>Astronomy</item>
+        <item>Biological Sciences</item>
+        <item>City Studies</item>
+        <item>Classical Studies</item>
+        <item>Cognitive Science</item>
+        <item>Computer Science</item>
+        <item>Concurrent Teacher Education</item>
+        <item>Diaspora and Transnational Studies</item>
+        <item>Economics for Management Studies</item>
+        <item>Environmental Science</item>
+        <item>Environmental Science and Technology</item>
+        <item>Environmental Studies</item>
+        <item>French</item>
+        <item>Geography</item>
+        <item>Global Asia Studies</item>
+        <item>Health Studies</item>
+        <item>Historical and Cultural Studies</item>
+        <item>History</item>
+        <item>International Development Studies</item>
+        <item>International Studies</item>
+        <item>Intersections, Exchanges, and Encounters</item>
+        <item>Journalism</item>
+        <item>Languages</item>
+        <item>Linguistics</item>
+        <item>Management</item>
+        <item>Mathematics</item>
+        <item>Media Studies</item>
+        <item>Music and Culture</item>
+        <item>Neuroscience</item>
+        <item>New Media Studies</item>
+        <item>Paramedicine</item>
+        <item>Physical Sciences</item>
+        <item>Physics and Astrophysics</item>
+        <item>Political Science</item>
+        <item>Psychology</item>
+        <item>Religion</item>
+        <item>Society and Environment</item>
+        <item>Sociology</item>
+        <item>Statistics</item>
+        <item>Studio</item>
+        <item>Teaching and Learning</item>
+        <item>Theatre and Performance Studies</item>
+        <item>Visual and Performing Arts</item>
+        <item>"Women's and Gender Studies"</item>
+
+    </string-array>
+</resources>
